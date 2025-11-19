@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+#datasource specific properties
+spring:
+  datasource:
+    username: root
+    password: Ashlesha@123
+    url: jdbc:mysql://localhost:3306/empdb
+#jpa properties
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
